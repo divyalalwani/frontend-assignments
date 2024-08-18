@@ -1,0 +1,40 @@
+.item-list-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  /* Center horizontally */
+  padding: 20px;
+  text-align: center;
+  /* Center text horizontally */
+}
+
+.card-name {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-gender {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+}

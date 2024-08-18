@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Add padding to body or main content */
+body {
+  margin: 0;
+  padding-top: 60px;
+  /* Same as header height */
+}
+
+.page-heading {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
